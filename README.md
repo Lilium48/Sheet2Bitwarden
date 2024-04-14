@@ -3,7 +3,7 @@ Python-based project that copies and pastes usernames and passwords to a vault o
 
 Despite this, there are some prerequisities and understanding before you begin: 
 # Notes/Prerequisites
-Bitwarden has 2 different APIs: vault management & their public API. The Public API is only available for teams and enterprise level organizations. Users/Free Organizations do not have this access; however, we have a backup, the vault management, which we will use. 
+Bitwarden has 2 different APIs: vault management & their public API. The Public API is only available for teams and enterprise level organizations. Users/Free Organizations do not have this access; however, we have a backup, the vault management, which we will be using. 
 
 The vault management api is a CLI that you install locally on an OS of your choice. Information on how to install and the api itself can be found here: https://bitwarden.com/help/cli/. Once you have this downloaded and ran, you can find out some information we will need for the script. 
 
@@ -19,7 +19,7 @@ bw list folders
 ``` 
 So, the other issue is how we communciate with this api. Since we are not using the public api endpoint of https://api.bitwarden.com/, we must use Bitwarden's built in serve command as an alternative. 
 
-The Serve commmand spins up a local binding web server to a port and hostname of your choice. Once this is deployed, we can communciate with the API using RESTful requests. To spin this up, type in the following: 
+The Serve command spins up a local binding web server to a port and hostname of your choice. Once this is deployed, we can communciate with the API using RESTful requests. To spin this up, type in the following: 
 ``` bash 
 bw serve --port 8088 --hostname localhost
 ```
