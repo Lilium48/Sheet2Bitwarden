@@ -1,5 +1,5 @@
 # Sheet2Bitwarden
-Python-based project that copies and pastes usernames and passwords to a vault on Bitwarden. This project allows a user to seamlessly transition usernames and passwords over to bitwarden by using the Google API. 
+Python-based project that copies and pastes usernames and passwords to a vault on Bitwarden. This project allows a user to seamlessly transition usernames and passwords over to Bitwarden by using the Google API. 
 
 Despite this, there are some prerequisities and understanding before you begin: 
 # Notes/Prerequisites
@@ -42,7 +42,7 @@ You will need to do the following:
 
 Open a new terminal and git clone Sheet2bitwarden using the following command: 
 ``` bash
-git clone https://github.com/Kaede48/Sheet2Bitwarden.git
+git clone https://github.com/Lilium48/Sheet2Bitwarden.git
 ```
 Next, 
 ```
